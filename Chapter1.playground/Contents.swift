@@ -25,3 +25,8 @@ print("Hello my name is Hana")
 1 << 3
 32 >> 2
 
+// Order of oparations
+((8000 / (5 * 10)) - 32) >> (29 % 5)
+350 / 5 + 2
+350 / (5 + 2)
+
