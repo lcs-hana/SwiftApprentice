@@ -50,6 +50,10 @@ let number : Int = 10
 let pi : Double = 3.14159
 // number = 0   This code is error because "number" is a "let" constant
 
+// Variables
+var variableNumber: Int = 42
+variableNumber = 0
+variableNumber = 1_000_000
 
 
 
