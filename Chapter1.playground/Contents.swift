@@ -18,3 +18,10 @@ var str = "Hello, playground"
 
 // Printing out
 print("Hello my name is Hana")
+
+// Shift operations
+// Shift left <<
+// Shift right >>
+1 << 3
+32 >> 2
+
