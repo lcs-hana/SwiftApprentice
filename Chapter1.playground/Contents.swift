@@ -2,6 +2,7 @@ import Cocoa
 
 var str = "Hello, playground"
 
+
 // Basic operators
 2 + 6
 10 - 2
@@ -14,3 +15,6 @@ var str = "Hello, playground"
 // e.g.: 10 goes into 28 twice, and 8 remains
 28 % 10
 28 / 10
+
+// Printing out
+print("Hello my name is Hana")
