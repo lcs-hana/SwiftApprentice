@@ -43,4 +43,13 @@ min(-5, -10)
 
 max((2.0).squareRoot(), Double.pi/2)
 
+// Naming data
+
+//Contants
+let number : Int = 10
+let pi : Double = 3.14159
+// number = 0   This code is error because "number" is a "let" constant
+
+
+
 
