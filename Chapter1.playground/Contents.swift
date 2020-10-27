@@ -86,7 +86,7 @@ var age: Int = 16
 print(age)
 age = 30
 print(age)
-// I used "var"
+// I used "var" brcause value changes.
 
 // Challenge 3
 let x: Int = 46
@@ -100,6 +100,7 @@ let answer3 : Int = (x * 100) + (y / 100)  // answer 3 should be 4600
 
 // Challenge 4
 8 - 4 * 2 + 6 / 3 * 4
+print(8 - 4 * 2 + 6 / 3 * 4)
 (8 - (4 * 2)) + ((6 / 3) * 4)
 
 // Challenge 5
