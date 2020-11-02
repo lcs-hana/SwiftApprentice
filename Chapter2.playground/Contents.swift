@@ -101,6 +101,25 @@ let (x3, y3, z3) = coordinates3D
 */
 let (x4, y4, _) = coordinates3D
 
+// Mini-exercises
+// another poorly written exercise
+// Exercise 1
+let dayAverageTemp: (Int, Int, Int, Double) = (11, 21, 2018, 25.4)
+// Exercise 2
+let dayAverageTempNamed: (month: Int, day: Int, year: Int, averageTemperature: Double) = (11, 21, 2018, 25.4)
+// Exercise 3
+let (_, day, _, averageTemperature) = dayAverageTempNamed
+// Exercise 4
+var dayAverageTempNamedVar: (month: Int, day: Int, year: Int, averageTemperature: Double) = (11, 21, 2018, 25.4)
+dayAverageTempNamedVar.averageTemperature = 66.7
+
+// Number types
+let a: Int16 = 12
+let b: UInt8 = 255
+let c: Int32 = -100000
+let answer = Int(a) + Int(b) + Int(c) // answer is of type Int
+
+
 
 
 
