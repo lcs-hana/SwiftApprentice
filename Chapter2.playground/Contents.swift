@@ -47,6 +47,13 @@ let characterDog: Character = "🐶"
 let stringDog: String = "Dog"
 let stringDog2 = "Dog" // Inferred to be of type String
 
+// Concatenation
+var message = "Hello" + "my name is"
+let name = "Hana"
+message += name // "Hello my name is Hana"
+
+let exclamatationMark: Character = "!"
+message += String(exclamatationMark) // "Hello my name is Hana !"
 
 
 
