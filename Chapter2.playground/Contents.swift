@@ -119,6 +119,13 @@ let b: UInt8 = 255
 let c: Int32 = -100000
 let answer = Int(a) + Int(b) + Int(c) // answer is of type Int
 
+// Type aliases
+typealias Animal = String
+let myPet: Animal = "Dog"
+typealias Coordinates = (Int, Int)
+let xy: Coordinates = (2, 4)
+
+
 
 
 
