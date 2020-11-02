@@ -37,6 +37,16 @@ let avg1 = (age1 + age2) / 2
 // Exercise 3
 // I don't know what should I do here.
 
+// String
+// computer think of strings as a collection of individual characters.
+// character set is the form which translate character to number.
+
+// Characters and strings
+let characterA: Character = "a"
+let characterDog: Character = "🐶"
+let stringDog: String = "Dog"
+let stringDog2 = "Dog" // Inferred to be of type String
+
 
 
 
