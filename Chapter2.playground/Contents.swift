@@ -55,6 +55,13 @@ message += name // "Hello my name is Hana"
 let exclamatationMark: Character = "!"
 message += String(exclamatationMark) // "Hello my name is Hana !"
 
+// Interploation
+message = "Hello my name is \(name) !" //"Hello my name is Hana !"
+
+let oneThird = 1.0/3.0
+let oneThirdLongString = "One tgird is \(oneThird) as a decimal"
+
+
 
 
 
