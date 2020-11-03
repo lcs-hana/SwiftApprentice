@@ -28,3 +28,28 @@ let andOr = (1 < 2 && 3 > 4) || 1 < 4
 let guess = "dog"
 let dogEqualsCat = guess == "cat"
 let prder = "cat" < "dog"
+
+//Toggling a Bool
+var switchState = true
+switchState.toggle() // switchState = false
+switchState.toggle() // switchState = true
+
+//Mini-exercise
+//Exercise 1
+let myAge:Int = 17
+let isTeenager: Bool = myAge >= 13 &&  myAge <= 19
+
+//Exercise 2
+let theirAge:Int = 30
+let bothTeenager: Bool = myAge >= 13 && theirAge <= 19 && isTeenager
+
+//Exercise 1
+let reader: String = "Hana Kono"
+let author: String = "Matt Galloway"
+let authorIsReader: Bool = reader == author
+
+//Exersice 2
+let readerBeforeauthor: Bool = reader < author
+
+
+
