@@ -27,6 +27,7 @@
 		BC3EB7002541040600AACC13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC3EB7082541048600AACC13 /* Chapter1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BC3EB70A254106C800AACC13 /* Chapter2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BC3EB72925503ADC00AACC13 /* Chapter 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter 3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 			children = (
 				BC3EB7082541048600AACC13 /* Chapter1.playground */,
 				BC3EB70A254106C800AACC13 /* Chapter2.playground */,
+				BC3EB72925503ADC00AACC13 /* Chapter 3.playground */,
 				BC3EB6FF2541040600AACC13 /* SwiftApprentice */,
 				BC3EB6FE2541040600AACC13 /* Products */,
 			);
