@@ -135,3 +135,16 @@ let c = 5
 let d = 10
 let min2 = c < d ? a : b
 let max2 = c > d ? a : b
+
+// Mini-exercises
+// Exercise 1
+let myAge2: Int = 18
+if myAge2 >= 13 && myAge2 <= 19 {
+    print("Teenager")
+} else {
+    print("Not a teenager")
+}
+
+// Exercise 2
+let answer = myAge2 >= 13 && myAge2 <= 19 ? "Teenager" : "Not a teenager"
+print(answer)
