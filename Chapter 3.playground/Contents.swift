@@ -2,9 +2,16 @@ import Cocoa
 
 var str = "Hello, playground"
 
-//Comparsion operators
+//Comparison operators
+
+//type annotation
+//we *tell* the shift compiler what type will be. In this case, a bool.
 let yes: Bool = true
 let no: Bool = false
+
+//type inference
+//
+//the shift compiler has to get *guess* at what type is
 //let yes = true
 //let no = false
 
@@ -51,5 +58,80 @@ let authorIsReader: Bool = reader == author
 //Exersice 2
 let readerBeforeauthor: Bool = reader < author
 
+// The if statement
+if 2 > 1 {
+    print("Yes, 2 is greater than 1.")
+}
 
+let animal = "Fox"
 
+if animal == "Cat" || animal == "Dog" {
+    print("Animal is a house pet.")
+} else {
+    print("Animal is not a house pet.")
+}
+
+let hourOfDay = 12
+var timeOfDay = ""
+
+if hourOfDay < 6 {
+  timeOfDay = "Early morning"
+} else if hourOfDay < 12 {
+  timeOfDay = "Morning"
+} else if hourOfDay < 17 {
+  timeOfDay = "Afternoon"
+} else if hourOfDay < 20 {
+  timeOfDay = "Evening"
+} else if hourOfDay < 24 {
+  timeOfDay = "Late evening"
+} else {
+  timeOfDay = "INVALID HOUR!"
+}
+print(timeOfDay)
+
+// Short circulating
+let name: String = "Hana Kono"
+if 1 > 2 && name == "Matt Golloway" {
+    // ...
+}
+
+if 1 < 2 || name == "Matt Galloway" {
+    // ...
+}
+
+//Encapsulating variables
+//You earn $25 for every hour up to 40 hours, and $50 for every hour after that.
+var hoursWorked = 45
+var price = 0
+if hoursWorked > 40 {
+    let hoursOver40 = hoursWorked - 40
+    price += hoursOver40 * 50
+    hoursWorked -= hoursOver40
+}
+price += hoursWorked * 25
+
+print(price)
+//print(hoursOver40) // constant is declared within the if statement so it can't be accessed outside of its scope
+
+// The ternary conditional operator
+let a = 5
+let b = 10
+
+let min: Int
+if a < b {
+    min = a
+} else {
+    min = b
+}
+
+let max: Int
+if a > b {
+    max = a
+} else {
+    max = b
+}
+// (<CONDITION>) ? <TRUE VALUE> : <FALSE VALUE>
+let c = 5
+let d = 10
+let min2 = c < d ? a : b
+let max2 = c > d ? a : b
