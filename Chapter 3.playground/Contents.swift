@@ -175,3 +175,13 @@ repeat {
 } while sum < 1 // the loop will execute once so sum should be 3
 print(sum)
 
+// Breaking out of a loop
+sum = 1
+while true {
+    sum = sum + (sum + 1)
+    if sum >= 1000 {
+        break
+    }
+}
+print(sum)
+
