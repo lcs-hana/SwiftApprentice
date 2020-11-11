@@ -148,3 +148,12 @@ if myAge2 >= 13 && myAge2 <= 19 {
 // Exercise 2
 let answer = myAge2 >= 13 && myAge2 <= 19 ? "Teenager" : "Not a teenager"
 print(answer)
+
+// While loops
+var sum = 1
+while sum < 1000 {
+    sum = sum + (sum + 1)
+}
+print(sum)
+
+
