@@ -156,4 +156,22 @@ while sum < 1000 {
 }
 print(sum)
 
+// Repeat-while loops
+sum = 1
+repeat {
+    sum = sum + (sum + 1)
+} while sum < 1000
+print(sum)
+
+sum = 1
+while sum < 1 { // the condition is already false so the body won't run
+    sum = sum + (sum + 1)
+}
+print(sum)
+
+sum = 1
+repeat {
+    sum = sum + (sum + 1)
+} while sum < 1 // the loop will execute once so sum should be 3
+print(sum)
 
