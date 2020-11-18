@@ -185,3 +185,67 @@ while true {
 }
 print(sum)
 
+// Mini-exercises
+// Exercise 1
+var counter = 0
+while counter < 10 {
+    print("counter is \(counter)")
+    counter += 1
+}
+print(counter)
+
+// Exercise 2
+counter = 0
+var roll = 0
+repeat {
+    roll = Int.random(in: 0...5)
+    counter += 1
+    print("After \(counter) rolls, roll is \(roll)")
+} while roll != 0
+
+// Challenges
+// Challenge 1: Find the error
+let firstName = "Matt"
+if firstName == "Matt" {
+//    let lastName = "Galloway" // commented out to remove warning
+} else if firstName == "Ray" {
+//    let lastName = "Wenderlich" // commented out to remove warning
+}
+//let fullName = firstName + " " + lastName // can't reference lastName as it was created in the if loop scope
+// Challenge 2: Boolean challenge
+let answer1 = true && true // answer1 = true
+let answer2 = false || false // answer2 = false
+let answer3 = (true && 1 != 2) || (4 > 3 && 100 < 1) // answer3 = true
+let answer4 = ((10 / 2) > 3) && ((10 % 2) == 0) //answer4 = true
+// Challenge 3: Snakes and ladders
+let currentPosition = 1
+let diceRoll = 5
+var nextPosition = currentPosition + diceRoll
+if nextPosition == 3 {
+    nextPosition = 15
+} else if nextPosition == 7 {
+    nextPosition = 12
+} else if nextPosition == 11 {
+    nextPosition = 2
+} else if nextPosition == 17 {
+    nextPosition = 9
+}
+print(nextPosition)
+
+// Challenge 4: Number of days in a month
+// horrible challenge. needs better instructions and to work up to this random complexity. questions are different between the book and the challenge answers. and the end of the official answer with the print statement is actually wrong. 🤮
+let month: String = "january"
+let year: Int = 2019
+var numberOfDays: Int = 0
+if month == "january" || month == "march" || month == "may" || month == "july" || month == "august" || month == "october" || month == "december" {
+    numberOfDays = 31
+} else if month == "april" || month == "june" || month == "september" || month == "november" {
+    numberOfDays = 30
+} else if month == "february" {
+    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+        numberOfDays = 29
+    } else {
+        numberOfDays = 28
+    }
+}
+print(numberOfDays)
