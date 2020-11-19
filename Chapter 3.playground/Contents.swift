@@ -233,9 +233,8 @@ if nextPosition == 3 {
 print(nextPosition)
 
 // Challenge 4: Number of days in a month
-// horrible challenge. needs better instructions and to work up to this random complexity. questions are different between the book and the challenge answers. and the end of the official answer with the print statement is actually wrong. 🤮
-let month: String = "january"
-let year: Int = 2019
+let month: String = "November"
+let year: Int = 2020
 var numberOfDays: Int = 0
 if month == "january" || month == "march" || month == "may" || month == "july" || month == "august" || month == "october" || month == "december" {
     numberOfDays = 31
@@ -249,3 +248,20 @@ if month == "january" || month == "march" || month == "may" || month == "july" |
     }
 }
 print(numberOfDays)
+
+
+//SUMMARY
+//True or false are represented by "Bool"
+//Equal =
+//Not Equal !=
+//Less than <
+//Greater than >
+//Less than or equal <=
+//Gretaer then or equal >=
+// AND &&
+// OR ||
+//"else" or "else if" are able to extend the decision
+
+
+
+
