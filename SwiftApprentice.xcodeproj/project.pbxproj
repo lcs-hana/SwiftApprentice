@@ -28,6 +28,7 @@
 		BC3EB7082541048600AACC13 /* Chapter1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BC3EB70A254106C800AACC13 /* Chapter2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BC3EB72925503ADC00AACC13 /* Chapter 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter 3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BC3F736025712DBE00067AAC /* Chapter 4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter 4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		BC3EB6F42541040600AACC13 = {
 			isa = PBXGroup;
 			children = (
+				BC3F736025712DBE00067AAC /* Chapter 4.playground */,
 				BC3EB7082541048600AACC13 /* Chapter1.playground */,
 				BC3EB70A254106C800AACC13 /* Chapter2.playground */,
 				BC3EB72925503ADC00AACC13 /* Chapter 3.playground */,
