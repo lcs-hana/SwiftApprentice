@@ -100,3 +100,52 @@ default:
     print("Animal is not a house pet.")
 }
 
+// Advanced switch statements
+let hourOfDay = 12
+var timeOfDay = ""
+switch hourOfDay {
+case 0, 1, 2, 3, 4, 5:
+    timeOfDay = "Early morning"
+case 6, 7, 8, 9, 10, 11:
+    timeOfDay = "Morning"
+case 12, 13, 14, 15, 16:
+    timeOfDay = "Afternoon"
+case 17, 18, 19:
+    timeOfDay = "Evening"
+case 20, 21, 22, 23:
+    timeOfDay = "Late evening"
+default:
+    timeOfDay = "INVALID HOUR!"
+}
+timeOfDay
+
+switch hourOfDay {
+case 0...5:
+    timeOfDay = "Early morning"
+case 6...11:
+    timeOfDay = "Morning"
+case 12...16:
+    timeOfDay = "Afternoon"
+case 17...19:
+    timeOfDay = "Evening"
+case 20..<24:
+    timeOfDay = "Late evening"
+default:
+    timeOfDay = "INVALID HOUR!"
+}
+timeOfDay
+
+
+switch number {
+case let x where x % 2 == 0:
+    print("Even")
+default:
+    print("Odd")
+}
+
+switch number {
+case _ where number % 2 == 0:
+    print("Even")
+default:
+    print("Odd")
+}
