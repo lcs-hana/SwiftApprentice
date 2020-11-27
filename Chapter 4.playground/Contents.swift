@@ -55,3 +55,24 @@ rowLoop: for row in 0..<8 {
 }
 sum
 
+// Mini-exercises
+// Exercise 1
+let range = 1...10
+for i in range {
+    print(i * i)
+}
+
+// Exercise 2
+for i in range {
+    print(sqrt(Double(i)))
+}
+
+// Exercise 3
+sum = 0
+for row in 0..<8 where row % 2 == 1 {
+    for column in 0..<8 {
+        sum += row * column
+    }
+}
+sum
+
