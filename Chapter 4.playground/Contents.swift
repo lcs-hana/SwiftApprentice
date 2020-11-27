@@ -76,3 +76,27 @@ for row in 0..<8 where row % 2 == 1 {
 }
 sum
 
+// Switch statements
+let number = 10
+switch number {
+case 0:
+    print("Zero")
+default:
+    print("Non-zero")
+}
+
+switch number {
+case 10:
+    print("It's ten!")
+default:
+    break
+}
+
+let string = "Dog"
+switch string {
+case "Cat", "Dog":
+    print("Animal is a house pet.")
+default:
+    print("Animal is not a house pet.")
+}
+
