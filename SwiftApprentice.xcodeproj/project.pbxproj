@@ -23,11 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC17EE1525754C5A003E4D8A /* Chapter 5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter 5.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BC17EE1925754C84003E4D8A /* Chapter 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Chapter 3.playground"; path = "Chapter 4.playground/Resources/Chapter 3.playground"; sourceTree = "<group>"; };
 		BC3EB6FD2541040600AACC13 /* SwiftApprentice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftApprentice; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3EB7002541040600AACC13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC3EB7082541048600AACC13 /* Chapter1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BC3EB70A254106C800AACC13 /* Chapter2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		BC3EB72925503ADC00AACC13 /* Chapter 3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter 3.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BC3F736025712DBE00067AAC /* Chapter 4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Chapter 4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -45,10 +46,11 @@
 		BC3EB6F42541040600AACC13 = {
 			isa = PBXGroup;
 			children = (
-				BC3F736025712DBE00067AAC /* Chapter 4.playground */,
 				BC3EB7082541048600AACC13 /* Chapter1.playground */,
 				BC3EB70A254106C800AACC13 /* Chapter2.playground */,
-				BC3EB72925503ADC00AACC13 /* Chapter 3.playground */,
+				BC17EE1925754C84003E4D8A /* Chapter 3.playground */,
+				BC17EE1525754C5A003E4D8A /* Chapter 5.playground */,
+				BC3F736025712DBE00067AAC /* Chapter 4.playground */,
 				BC3EB6FF2541040600AACC13 /* SwiftApprentice */,
 				BC3EB6FE2541040600AACC13 /* Products */,
 			);
